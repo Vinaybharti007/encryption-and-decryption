@@ -7,12 +7,8 @@ import os
 """  
     
  *****Developer Info ****
- Name :     Rahul Sahani
- Email :    iamrahulsahani@gmail.com
- contact :  8878307815
- Date :     7/4/2019
-
-
+ Name :   vinay bharti
+ gmail: vinaybharti1996@gmail.com
 """
 
 
@@ -200,7 +196,7 @@ def login_sucess():
     Button(root, text="Developer", font=("times new roman", 20), bg="#0D47A1", fg='white', command=developer).grid(row=6,columnspan=2,sticky=N + E + W + S,padx=5,pady=5)
 
     # creating a text label
-    Label(root, text="Developed by Rahul Sahani \xa9 2019", font=("times new roman", 20), fg="white", bg="black", height=2).grid(row=7, rowspan=2, columnspan=2, sticky=W + E + N + S, padx=5, pady=5)
+    Label(root, text="Developed by vinay bharti \xa9 2022", font=("times new roman", 20), fg="white", bg="black", height=2).grid(row=7, rowspan=2, columnspan=2, sticky=W + E + N + S, padx=5, pady=5)
 
 
 
@@ -257,7 +253,7 @@ def about():
 # script to open github link
 
 def developer():
-    webbrowser.open('https://github.com/iamrahulsahani')
+    webbrowser.open('https://github.com/Vinaybharti007')
 
 # Deleting popups
 
